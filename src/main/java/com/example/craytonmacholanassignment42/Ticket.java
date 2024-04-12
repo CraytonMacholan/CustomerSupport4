@@ -12,11 +12,9 @@ public class Ticket {
     private String body;
     private LocalDate date;
     private Image image;
-    private List<Attachment> attachments; // If using ArrayList
-    //private Map<Integer, Attachment> attachments; // If using HashMap
+    private List<Attachment> attachments; //  ArrayList
 
-    public Ticket() {
-        // Default constructor
+    public Ticket() {// Default constructor
     }
 
     public Ticket(String customerName, String subject, String body, List<Attachment> attachments) {
@@ -26,13 +24,6 @@ public class Ticket {
         this.attachments = attachments;
     }
 
-    // If using HashMap for attachments, provide another constructor
-     //public Ticket(String customerName, String subject, String body, Map<Integer, Attachment> attachments) {
-         //this.customerName = customerName;
-         //this.subject = subject;
-       //  this.body = body;
-         //this.attachments = attachments;
-     //}
 
     // Getters and Setters
     public String getCustomerName() {
@@ -113,24 +104,5 @@ public class Ticket {
     public boolean hasImage() {
         return image != null;
     }
-
-    // If using HashMap for attachments
-    // public void addAttachment(int index, Attachment attachment) {
-    //     if (attachments == null) {
-    //         attachments = new HashMap<>();
-    //     }
-    //     attachments.put(index, attachment);
-    // }
-
-    // public int getNumberOfAttachments() {
-    //     return attachments != null ? attachments.size() : 0;
-    // }
-
-    // public Attachment getAttachment(int index) {
-    //     return attachments != null ? attachments.get(index) : null;
-    // }
-
-    // public Map<Integer, Attachment> getAllAttachments() {
-    //     return attachments;
-    // }
 }
+

@@ -7,6 +7,7 @@ public class Image {
 
     private byte[] contents;
 
+    //getters and setters
     public String getName() {
         return name;
     }
