@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a7f420-c020-45f6-a651-1db57992e6fc" name="Changes" comment="deleted unnecary comments, and added comments">
-      <change afterPath="$PROJECT_DIR$/WEB-INF/jsp/view/base.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/jsp/view/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/jsp/view/listBlogs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/jsp/view/ticketForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/jsp/view/viewTicket.jsp" afterDir="false" />
+    <list default="true" id="f1a7f420-c020-45f6-a651-1db57992e6fc" name="Changes" comment="double everything. Error 404 still. Base.jsp,error.jsp,listBlog.jsp, ticketForm.jsp, viewTicket.jsp, web.xml.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view" />
       <recent name="$PROJECT_DIR$/WEB-INF/jsp/view" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,7 +166,7 @@
       <updated>1712765456576</updated>
       <workItem from="1712765457681" duration="6459000" />
       <workItem from="1712941768179" duration="1195000" />
-      <workItem from="1713320733867" duration="2638000" />
+      <workItem from="1713320733867" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Code from Example.">
       <option name="closed" value="true" />
@@ -214,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712940526645</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="double everything. Error 404 still. Base.jsp,error.jsp,listBlog.jsp, ticketForm.jsp, viewTicket.jsp, web.xml.">
+      <option name="closed" value="true" />
+      <created>1713887960044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713887960044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +228,7 @@
     <MESSAGE value="Most done need to fix up TicketServlet" />
     <MESSAGE value="fixed up errors still 404 currently" />
     <MESSAGE value="deleted unnecary comments, and added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted unnecary comments, and added comments" />
+    <MESSAGE value="double everything. Error 404 still. Base.jsp,error.jsp,listBlog.jsp, ticketForm.jsp, viewTicket.jsp, web.xml." />
+    <option name="LAST_COMMIT_MESSAGE" value="double everything. Error 404 still. Base.jsp,error.jsp,listBlog.jsp, ticketForm.jsp, viewTicket.jsp, web.xml." />
   </component>
 </project>
