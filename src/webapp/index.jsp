@@ -1,1 +1,1 @@
-<jsp:forward page="/ticket" />
+<jsp:forward page="/Ticket" />
