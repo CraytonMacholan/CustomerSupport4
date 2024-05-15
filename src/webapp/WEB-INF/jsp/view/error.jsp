@@ -1,11 +1,22 @@
-<%@ page isErrorPage="true" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Error</title>
 </head>
 <body>
-  <h2>An error occured or the page doesn't exist</h2>
-  <br><a href="ticket">Return to ticket list</a>
+<h2>Error</h2>
+<p>The requested resource is not available.</p>
 </body>
 </html>
-//Assignment 5
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+</head>
+<body>
+<h2>Error</h2>
+<p>The requested resource is not available.</p>
+</body>
+</html>
