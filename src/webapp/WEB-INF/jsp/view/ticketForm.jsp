@@ -1,20 +1,26 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Create Ticket</title>
+  <title>Tickets</title>
 </head>
 <body>
-<h2>Create a Ticket Post</h2>
-<form method="POST" action="Ticket" enctype="multipart/form-data">
-  <input type="hidden" name="action" value="create">
-  Title:<br>
-  <input type="text" name="title"><br><br>
-  Body:<br>
-  <textarea name="body" rows="25" cols="100"></textarea><br><br>
-  <b>Image</b><br>
-  <input type="file" name="file1"><br><br>
-  <input type="submit" value="Submit">
-</form>
+<h2>Tickets</h2>
+<a href="<c:url value='/ticket'>
+        <c:param name='action' value='createTicket' />
+    </c:url>">Create Post</a><br><br>
+<c:choose>
+  <c:when test="${ticketDatabase.size() == 0}">
+    <p>There are no ticket posts yet...</p>
+  </c:when>
+  <c:otherwise>
+    <c:forEach var="ticket" items="${ticketDatabase}">
+      Ticket#:&nbsp;<c:out value="${ticket.key}"/>
+      <a href="<c:url value='/ticket' >
+                    <c:param name='action' value='view' />
+                    <c:param name='ticketId' value='${ticket.key}' />
+                </c:url>">&nbsp;<c:out value="${ticket.value.title}"/></a><br>
+    </c:forEach>
+  </c:otherwise>
+</c:choose>
+
 </body>
 </html>
