@@ -22,10 +22,10 @@ public class LoginServlet extends HttpServlet {
             session.setAttribute("username", username);
 
             // Redirect to home page or some other authenticated page
-            response.sendRedirect("home.jsp");
+            response.sendRedirect("base.jsp");
         } else {
             // Invalid credentials, redirect back to login page
-            response.sendRedirect("login.jsp");
+            response.sendRedirect("Login.jsp");
         }
     }
 }

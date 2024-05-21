@@ -9,9 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a7f420-c020-45f6-a651-1db57992e6fc" name="Changes" comment="moved index.jsp">
+    <list default="true" id="f1a7f420-c020-45f6-a651-1db57992e6fc" name="Changes" comment="listTickets.jsp updated and renamed. ticketForm.jsp updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/craytonmacholanassignment42/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/craytonmacholanassignment42/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/listTickets.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/listTickets.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/ticketForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/ticketForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/viewTicket.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/viewTicket.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/craytonmacholanassignment42/BlogServlet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/webapp/WEB-INF/jsp/view/ListTicket.jsp" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/webapp" />
@@ -167,7 +170,7 @@
       <updated>1712765456576</updated>
       <workItem from="1712765457681" duration="6459000" />
       <workItem from="1712941768179" duration="1195000" />
-      <workItem from="1713320733867" duration="5887000" />
+      <workItem from="1713320733867" duration="21781000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Code from Example.">
       <option name="closed" value="true" />
@@ -225,11 +228,118 @@
       <option name="project" value="LOCAL" />
       <updated>1713889294919</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="moved index.jsp">
+      <option name="closed" value="true" />
+      <created>1714054733074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714054733074</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit name &quot;Assignment 5&quot;">
+      <option name="closed" value="true" />
+      <created>1714579794247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714579794247</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Login.jsp">
+      <option name="closed" value="true" />
+      <created>1715649319535</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715649319535</updated>
+    </task>
+    <task id="LOCAL-00011" summary="LoginServlet.java">
+      <option name="closed" value="true" />
+      <created>1715650523772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715650523772</updated>
+    </task>
+    <task id="LOCAL-00012" summary="AuthenticationFilter.java">
+      <option name="closed" value="true" />
+      <created>1715651576809</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715651576809</updated>
+    </task>
+    <task id="LOCAL-00013" summary="LogoutServlet.java">
+      <option name="closed" value="true" />
+      <created>1715652263293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715652263293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SessionRegistry.java">
+      <option name="closed" value="true" />
+      <created>1715653011386</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715653011386</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Sessions.jsp&#10;errors at the Prefix&#10;and forEach">
+      <option name="closed" value="true" />
+      <created>1715653665004</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715653665004</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SessionListener.java">
+      <option name="closed" value="true" />
+      <created>1715653722714</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715653722714</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updated pom.xml, and web.xml,&#10;errors still but unsure how to fix. Ill submit this as assignment 6 for now and then get the grade and your response on how to fix!">
+      <option name="closed" value="true" />
+      <created>1715655314720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715655314720</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated for Assignment 5. Still 404">
+      <option name="closed" value="true" />
+      <created>1715789886130</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789886130</updated>
+    </task>
+    <task id="LOCAL-00019" summary="listTickets.jsp updated and renamed. ticketForm.jsp updated.">
+      <option name="closed" value="true" />
+      <created>1716308042170</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716308042170</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Code from Example." />
@@ -239,6 +349,18 @@
     <MESSAGE value="deleted unnecary comments, and added comments" />
     <MESSAGE value="double everything. Error 404 still. Base.jsp,error.jsp,listBlog.jsp, ticketForm.jsp, viewTicket.jsp, web.xml." />
     <MESSAGE value="moved index.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved index.jsp" />
+    <MESSAGE value="commit name &quot;Assignment 5&quot;" />
+    <MESSAGE value="Login.jsp" />
+    <MESSAGE value="LoginServlet.java" />
+    <MESSAGE value="AuthenticationFilter.java" />
+    <MESSAGE value="LogoutServlet.java" />
+    <MESSAGE value="SessionRegistry.java" />
+    <MESSAGE value="Sessions.jsp" />
+    <MESSAGE value="Sessions.jsp&#10;errors at the Prefix&#10;and forEach" />
+    <MESSAGE value="SessionListener.java" />
+    <MESSAGE value="updated pom.xml, and web.xml,&#10;errors still but unsure how to fix. Ill submit this as assignment 6 for now and then get the grade and your response on how to fix!" />
+    <MESSAGE value="updated for Assignment 5. Still 404" />
+    <MESSAGE value="listTickets.jsp updated and renamed. ticketForm.jsp updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="listTickets.jsp updated and renamed. ticketForm.jsp updated." />
   </component>
 </project>
